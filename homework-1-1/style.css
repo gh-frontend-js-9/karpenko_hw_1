@@ -1,0 +1,38 @@
+*{
+    letter-spacing: .3px;
+    line-height: 1.5;
+}
+p, i, strong{
+    font-size: 1.15rem;
+}
+img.text-wrap{
+    float: left;
+    margin: 0 .5rem .5rem 0;
+}
+img{
+    width: 30%;
+    height: auto;
+}
+div.block-center{
+    margin: 1rem auto;
+    width: 30%;
+}
+div.block-center img{
+    width: 100%;
+    height: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-decoration-underline{
+    text-decoration: underline;
+}
+ol li, ul li{
+    margin: .5rem 0;
+    font-size: 1.15rem;
+}
+@media (max-width: 991px){
+    img, div.block-center{
+        width: 100%;
+    }
+}
